@@ -1,0 +1,123 @@
+
+/* .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #635e5ef5;
+  color: white;
+  height: 200px;
+  
+}
+
+.logo img {
+  width: 140px;
+  height: auto;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap:20px;
+}
+
+.contact-info > div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.contact-info span {
+  margin-left: 10px; 
+}
+
+.login-button button {
+  background-color: rgba(255, 0, 0, 0.906) ;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 60px;
+}
+
+
+@media (max-width: 850px) {
+  .contact-info {
+    display: block;
+  }
+
+  .logo img {
+    width: 140px; 
+  }
+  .login-button button{
+    height: 50px;
+  }
+  .contact-info{
+    font-size: 22px;
+  }
+}
+@media (max-width:660px) {
+  .logo img {
+    width: 130px; 
+    
+  }
+  .navbar{
+    height: 270px;
+  }
+  .contact-info > div {
+    padding:5px;
+  }
+  .contact-info{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .login-button button{
+    height: 40px;
+  }
+  .contact-info{
+    font-size: 20px;
+  }
+} */
+
+/* TopBar.css */
+.top-bar {
+  background-color: grey;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: 600;
+}
+.button{
+   padding: 15px 35px;
+   background-color: rgb(247, 57, 57);
+
+}
+.phone,
+.email,
+.Logo,
+.LogIn {
+  margin: 0 20px;
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .phone,
+  .email
+  .Logo,
+.LogIn {
+    margin: 10px 0;
+}
+}
